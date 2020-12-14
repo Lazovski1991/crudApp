@@ -32,7 +32,7 @@ public class PeopleController {
 
     @GetMapping("/new")
     public String newPerson(@ModelAttribute("person") Person person) {
-     //   model.addAttribute("person", new Person());
+        //   model.addAttribute("person", new Person());
         return "people/new";
     }
 
